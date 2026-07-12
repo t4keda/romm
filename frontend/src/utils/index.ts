@@ -469,6 +469,23 @@ const _EJS_CORES_MAP: Record<string, string[]> = {
   c128: ["vice_x128"],
   "commmodore-128": ["vice_x128"],
   colecovision: ["gearcoleco"],
+  cps1: [
+    "mame2003",
+    "mame2003_plus",
+    "fbneo",
+    "fbalpha2012_cps1",
+  ],
+  cps2: [
+    "mame2003",
+    "mame2003_plus",
+    "fbneo",
+    "fbalpha2012_cps2",
+  ],
+  cps3: [
+    "mame2003",
+    "mame2003_plus",
+    "fbneo",
+  ],
   doom: ["prboom"],
   dos: ["dosbox_pure"],
   jaguar: ["virtualjaguar"],
